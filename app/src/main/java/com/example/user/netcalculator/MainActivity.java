@@ -13,6 +13,8 @@ import java.util.HashMap;
 public class MainActivity extends AppCompatActivity {
     EditText ipdir, mask;
     TextView shid, shbroad, shnet, shhost, nhost;
+    int aux1, aux2;
+
 
     public HashMap<Integer, String> equiv = new HashMap<Integer, String>();
 
@@ -77,6 +79,17 @@ public class MainActivity extends AppCompatActivity {
                 String octal2 = octales[1];
                 String octal3 = octales[2];
                 String octal4 = octales[3];
+
+                aux1 = mascara/8;
+                aux2 = mascara%8;
+
+                String var = equiv.get(mascara);
+                mostid.setText(var);
+
+                switch (aux1){
+                    case 1:
+
+                }
 
             }
         });
