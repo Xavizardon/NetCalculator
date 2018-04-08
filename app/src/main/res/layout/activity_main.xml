@@ -39,6 +39,7 @@
             android:layout_height="wrap_content">
 
             <EditText
+                android:id="@+id/ip"
                 android:layout_weight="10"
                 android:background="@color/colorAccent"
                 android:layout_width="wrap_content"
@@ -58,6 +59,7 @@
                 />
 
             <EditText
+                android:id="@+id/mask"
                 android:background="@color/colorAccent"
                 android:layout_weight="1"
                 android:layout_width="wrap_content"
@@ -92,10 +94,12 @@
             android:layout_height="wrap_content">
 
             <TextView
+                android:id="@+id/showid"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@color/colorAccent"
                 android:padding="10dp"
+                android:layout_margin="2dp"
                 />
 
         </LinearLayout>
@@ -120,10 +124,12 @@
             android:layout_height="wrap_content">
 
             <TextView
+                android:id="@+id/showbroadcast"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@color/colorAccent"
                 android:padding="10dp"
+                android:layout_margin="2dp"
                 />
 
         </LinearLayout>
@@ -155,6 +161,7 @@
                     />
 
                 <TextView
+                    android:id="@+id/shownet"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="@color/colorAccent"
@@ -177,6 +184,7 @@
                     />
 
                 <TextView
+                    android:id="@+id/showhost"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="@color/colorAccent"
@@ -205,6 +213,7 @@
                     />
 
                 <TextView
+                    android:id="@+id/numhost"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:background="@color/colorAccent"
